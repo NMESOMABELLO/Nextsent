@@ -1,0 +1,175 @@
+/* reset css */
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    /* border: 1px solid blue; */
+    padding :0 80px;
+    background-color: rgb(225, 222, 222);
+}
+ul{
+    display: flex;
+}
+.nav-item{
+    list-style: none;
+    /* border: 1px solid purple; */
+    margin:0px 15px;
+}
+/* .nav-item:hover{
+    background-color: aqua;
+} */
+.nav-link{
+    font-size: 15px;
+    color: black;
+    /* border: 1px solid red */
+}
+.bdm{
+    /* border: 1px solid black; */
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: rgb(50, 189, 50);
+    color: white;
+}
+
+.logo {
+    color: black;
+    font-size: 35px;
+    font-weight: 600;
+}
+/* HERO SECTON STYLE  */
+.hero-section {
+    /* height: 100vh; */
+    height: calc(100vh - 60px) ;
+    /* border: 1px solid red; */
+    padding: 0 80px;
+    background-color: aliceblue;
+    display: flex;
+}
+.left-hero-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* border: 1px solid blue; */
+    height: inherit;
+    width: 50%;
+}
+
+.right-hero-section {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-text {
+    font-size: 60px;
+}
+.hero-text > span{
+    color:   rgb(50, 189, 50);
+}
+.hero-content{
+    margin: 15px 0;
+    color:rgb(159, 154, 154);
+}
+.hero-btn{
+    border: 1px solid;
+    background-color:green;
+    width: 200px;
+    height: 45px;
+    color: white ;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.Client{
+    /* border: 1px solid blue; */
+    text-align: center;
+    color: rgb(53, 50, 50);
+    margin: 15px 0px;
+}
+.img-a{
+    display: flex;
+    /* border: 1px solid red; */
+    justify-content: space-around;
+    
+}
+.community{
+    text-align: center;
+    color: rgb(53, 50, 50);
+    margin-top: 50px;
+}
+.card-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.card{
+    box-shadow: 4px 4px 3px gray; 
+    border-radius: 8px;
+}
+.unseen{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 15px;
+}
+.local{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: aliceblue;
+}
+.third{
+    display: flex;
+    justify-content: space-evenly;
+}
+.site{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 15px; 
+}
+.footer{
+      /* border: 1px solid red; */
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      margin-top: 15px;
+}
+.bts{
+    border: 1px solid;
+    background-color:green;
+    /* width: 200px; */
+    /* height: 45px; */
+    color: white ;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.stray{
+    border: 1px solid;
+    background-color:green;
+    /* width: 200px; */
+    /* height: 45px; */
+    color: white ;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    cursor: pointer;
+}
